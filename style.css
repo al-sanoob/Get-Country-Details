@@ -1,0 +1,138 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;  
+   height: 100%;
+   background-image: url(./image/23322.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    
+}
+.container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    text-align: center;
+}
+.row1{
+    margin-top: 30px;
+}
+.row2{
+    margin-top: 20px;
+}
+
+#c_name{
+width: 250px;
+height: 45px;
+border: solid 1px #fdfdfd2a ;
+border-radius: 13px;
+text-align: center;
+color: rgb(255, 255, 255);
+font-size: 20px;
+font-family:cursive;
+font-weight: 600;
+font-style:normal;
+background-color:rgb(235, 18, 127) ;
+
+}
+
+button {
+    --color: #e67214;
+    color: rgba(217, 235, 218, 0.788);
+    font-family: cursive;
+    display: inline-block;
+    width: 4.5em;
+    height: 2.6em;
+    line-height: 2.5em;
+    margin: px;
+    position: relative;
+    overflow: hidden;
+    border: 0px solid var(--color);
+    transition: color 10s;
+    z-index: 1;
+    font-size: 17px;
+    border-radius: 14px;
+    font-weight: 500;
+    background-color: rgb(235, 18, 127);
+   margin: 5px;
+
+   }
+   
+   button:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background: var(--color);
+    height: 150px;
+    width: 200px;
+    border-radius: 50%;
+   }
+   
+   button:hover {
+    color: #fff;
+   }
+   
+   button:before {
+    top: 100%;
+    left: 100%;
+    transition: all .7s;
+   }
+   
+   button:hover:before {
+    top: -30px;
+    left: -30px;
+   }
+   
+   button:active:before {
+    background: #3a0ca3;
+    transition: background 0s;
+   }
+.card{
+    margin-left:20px;
+    color:rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.582);
+    border: solid 0.px rgb(196, 196, 199);
+    box-shadow: 4px 20px 35px rgba(0, 0, 0, 0.644);
+    border-radius: 5px;
+    text-align: center;
+    
+    
+}
+.list-group-item{
+    background: transparent;
+    background-color: rgba(14, 13, 13, 0.349);
+    color: rgb(211, 211, 211);
+    font-size: 17px;
+    font-family: sans-serif;
+    text-align: justify;
+    font-style: italic;
+}
+.list-group-item span{
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-style: normal;
+}
+#title{
+    font-size: 20px;
+    font-family: 'Space Grotesk', sans-serif;;
+    text-transform: uppercase;
+    font-weight: bolder;
+
+
+}
+.heading{
+    color: whitesmoke;
+    font-family: 'Space Grotesk', sans-serif;;
+    font-size: px;
+
+}
